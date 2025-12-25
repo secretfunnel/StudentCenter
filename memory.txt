@@ -1,0 +1,42 @@
+function handleAcademicGo(event) {
+  var dropdown = document.getElementById("DERIVED_SSS_SCL_SSS_MORE_ACADEMICS");
+  if (dropdown) {
+    if (dropdown.value === "2050") {
+      window.location.assign("../coursehistory.html");
+      return false;
+    } else if (dropdown.value === "1030") {
+      window.location.assign("../View My Grades.html");
+      return false;
+    }
+  }
+  submitAction_win0(document.win0, "DERIVED_SSS_SCL_SSS_GO_1");
+  return false;
+}
+
+function handleAcademicGo(event) {
+    const dropdown = document.getElementById("DERIVED_SSS_SCL_SSS_MORE_ACADEMICS");
+    const content = document.getElementById("mainContent");
+  
+    if (!dropdown || !content) return false;
+  
+    const value = dropdown.value;
+  
+    if (value === "2050") {
+      fetch("../coursehistory.html")
+        .then(response => response.text())
+        .then(html => {
+          content.innerHTML = html;
+        });
+      return false;
+    } else if (value === "1030") {
+      fetch("../View%20My%20Grades.html")
+        .then(response => response.text())
+        .then(html => {
+          content.innerHTML = html;
+        });
+      return false;
+    }
+  
+    submitAction_win0(document.win0, "DERIVED_SSS_SCL_SSS_GO_1");
+    return false;
+  }

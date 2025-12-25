@@ -1,0 +1,498 @@
+<!DOCTYPE html><html dir="ltr" lang="en" class='chrome mac pc standard psc_dir-ltr psc_form-xlarge'>
+<!--
+Copyright (c) 2000, 2022, Oracle and/or its affiliates. -->
+<head>
+<script type="text/javascript">
+document.domain = "peoplesoft.cornell.edu";
+var bPSHTMLtemplate = true;var nLastAccessTime = (new Date()).getTime();
+var disablePNSubscriptions = 1;
+var ptAppliedTemplateId = "DEFAULT_TEMPLATE";
+</script>
+
+<link rel="stylesheet" href="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PSSTYLEREQ_1.css" type="text/css">
+<link rel="stylesheet" href="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PSSTYLEDEF_TANGERINE_11.css" type="text/css">
+<link rel="stylesheet" href="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_PRCS_USER_NOTIFY_CSS_1.css" type="text/css">
+<link rel="stylesheet" href="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/CU_CLASSIC_COMPONENTS_CSS_1.css" type="text/css">
+<link rel="stylesheet" href="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/CU_BRAND_CLASSIC_FLUID_860_5_CORNELL_MACROSET_860_9.css" type="text/css">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="" type="text/css">
+<link rel="stylesheet" href="" type="text/css">
+<script type="text/javascript" language='JavaScript'>
+document.domain = "peoplesoft.cornell.edu";
+</script>
+
+<script type="text/javascript" language='JavaScript'>
+var totalTimeoutMilliseconds = 3600000; var warningTimeoutMilliseconds = 3000000; var timeOutURL = 'https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/?cmd=expire';var timeoutWarningPageURL = 'https://corcsprd.peoplesoft.cornell.edu/psc/corcscss/EMPLOYEE/SA/s/WEBLIB_TIMEOUT.PT_TIMEOUTWARNING.FieldFormula.IScript_TIMEOUTWARNING';var sRCRequestURL = 'https://corcsprd.peoplesoft.cornell.edu/psc/corcscss/EMPLOYEE/SA/s/WEBLIB_PTRC.ISCRIPT1.FieldFormula.IScript_RC_REQUEST';
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_COMMON_MIN_197017.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_AJAX_NET_MIN_197017.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_ISCROSSDOMAINNS6_MIN_1.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_SAVEWARNINGSCRIPT_MIN_197017.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_IFRAME_HDR_JS_MIN_1.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_RC_SERVICE_JS_MIN_1.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_RC_JS_MIN_1.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_RC_MENU_JS_MIN_1.js">
+</script>
+
+<script type="text/javascript">
+if (typeof window.ptNav2Info == "undefined") {
+var ptNav2Info = {
+
+branding: {
+fldrOpen: "ptnav2open",
+fldrClose: "ptnav2closed",
+fldr: "ptnav2fldr",
+cref: "ptnav2cref",
+toggle: "ptnav2toggle",
+tree: "ptnav2tree",
+frameBody: "ptnav2framebody",
+selected: "ptnav2selected",
+fldrSelBkgrnd: "ptnav2ulselected"
+},
+
+selectedId: "",
+userLang: "&c=TFsQAuqF2RtlidUJrYoTnj9HzFApegKe",
+sortOrder: "N",
+topParentId: "",
+accessSelectedTxt: "",
+autoMenuCollapse:"",
+rsEnabled:"false",
+rsEnabledWS:"false",
+saveWarn:"Y",
+UniNavTemplate:"",
+hNavCrefWebLib:"",
+UniNavPortalNode : "SA",
+UniNavRequest : "false"
+};}
+</script>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_COMMON_MIN_197017.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_AJAX_NET_MIN_197017.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_IFRAME_HDR_JS_MIN_1.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_ISCROSSDOMAINNS6_MIN_1.js">
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_SAVEWARNINGSCRIPT_MIN_197017.js">
+</script>
+
+<script type="text/javascript">
+var isNewSaveWarn = true;
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PTMAF_PUSH_JS_MIN_1.js">
+</script>
+
+<script language="javascript" type="text/javascript">
+
+document.cookie = "ps_theme=node:SA portal:EMPLOYEE theme_id:CORNELL_THEME_FLUID_SS_PT860 css:CU_BRAND_CLASSIC_FLUID_860 css_f:CU_BRAND_FLUID_TEMPLATE_860_SS accessibility:N macroset:CORNELL_MACROSET_860 formfactor:3 piamode:2 ; path=/; domain=.peoplesoft.cornell.edu;" + ((window.location.protocol == "https:") ? " secure;" : "") + ("; SameSite = Strict");
+</script>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_PORTAL_AS_JS_MIN_1.js">
+</script>
+
+<title>Employee-facing registry content</title>
+</head>
+<body class="PSPAGE" id="ptifrmtemplate">
+<script type="text/javascript">
+
+</script>
+
+<div><!--Begin pagelet: Nav URL: https%3A%2F%2Fcorcsprd.peoplesoft.cornell.edu%2Fpsc%2Fcorcscss%2FEMPLOYEE%2FSA%2Fs%2FWEBLIB_PT_NAV.ISCRIPT1.FieldFormula.IScript_PT_NAV_INFRAME%3Fnavtype%3Ddropdown%26c%3DTFsQAuqF2RtlidUJrYoTnj9HzFApegKe-->
+<div class="ptprtlcontainer">
+<nav id="pthnavcontainer" aria-label="Drop-Down Menu">
+<div role="menubar">
+<ul class="pthnav" role="menu">
+<li id="pthnavbc_MYFAVORITES" class="pthnavbarfldr"><a id="pthnavbca_MYFAVORITES" role="menuitem" aria-haspopup="true" class="pthnavbcanchor" href="">Favorites</a></li>
+
+<li id="pthnavfavsep" role="presentation">&nbsp;</li>
+
+<li id="pthnavbc_PORTAL_ROOT_OBJECT" class="pthnavbarfldr"><a id="pthnavbca_PORTAL_ROOT_OBJECT" role="menuitem" aria-haspopup="true" class="pthnavbcanchor" href="">Main Menu</a> 
+
+<div id="pthnavfly_PORTAL_ROOT_OBJECT" class="pthnavflyout pthnavbarhide" role="menu">
+<div class="pthnavflyoutscroll" role="presentation">
+<ul class="pthnavscrollul">
+<li class="pthnavfakeli">&nbsp;</li>
+</ul>
+</div>
+
+<div class="pthnavshadow" role="presentation">
+<div id="pthnavsrch">
+<div id="pthnavsrchlbl"><label for="pthnavsrchinput">Search Menu:</label></div>
+
+<form name="pthnavsrchform" id="pthnavsrchform" method="post" target="_parent" action="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/c/PORTAL_ADMIN.PTSF_GLOBAL_SEARCH.GBL" autocomplete="off" role="search" aria-label="Drop-Down Menu"><input id="pthnavsrchinput" name="SEARCH_TEXT" size="30" type="text" aria-labelledby="pthnavsrchlbl"> <input id="pthnav2ASLimit" name="AS_LIMIT" type="hidden" value="50"> <input name="SEARCH_TYPE" type="hidden" value="MENUSEARCH"><input name="MENU_SEARCH_CAT" type="hidden" value="PTPORTALREGISTRY"> <a id="pthnavgo" name="Go" href="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/c/PORTAL_ADMIN.PTSF_GLOBAL_SEARCH.GBL" role="button"><img src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_NAV_GO_1.gif" id="pthnavgoImg" name="imageField" alt="Start your search"></a></form>
+</div>
+
+<div id="pthnavsort_PORTAL_ROOT_OBJECT" class="pthnavsort pthnavsortnone" title="Sort Menu"><a href="" role="button" class="pthnavHideSortTxt">Menu not sorted. Click to sort in ascending order.</a></div>
+
+<div class="pthnavscrollup" role="presentation">&nbsp;</div>
+
+<div class="pthnavscroll" role="menu">
+<ul id="pthnavroot">
+<li class="pthnavfldr pthnav-mouse" id="CO_EMPLOYEE_SELF_SERVICE"><a id="fldra_CO_EMPLOYEE_SELF_SERVICE" role="menuitem" aria-haspopup="true" class="ptntop" href="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?pt_fname=CO_EMPLOYEE_SELF_SERVICE&amp;FolderPath=PORTAL_ROOT_OBJECT.CO_EMPLOYEE_SELF_SERVICE&amp;IsFolder=true">Self Service</a>
+<div class="pthnavfldrimg" title="FAN page (shift + enter)">&nbsp;</div>
+
+<div class="pthnavrightarrow">&nbsp;</div>
+</li>
+
+<li class="pthnavfldr pthnav-mouse" id="HCSR_RECORDS_AND_REGISTRATION"><a id="fldra_HCSR_RECORDS_AND_REGISTRATION" role="menuitem" aria-haspopup="true" class="ptntop" href="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?pt_fname=HCSR_RECORDS_AND_REGISTRATION&amp;FolderPath=PORTAL_ROOT_OBJECT.HCSR_RECORDS_AND_REGISTRATION&amp;IsFolder=true">Records and Enrollment</a>
+<div class="pthnavfldrimg" title="FAN page (shift + enter)">&nbsp;</div>
+
+<div class="pthnavrightarrow">&nbsp;</div>
+</li>
+
+<li class="pthnavfldr pthnav-mouse" id="EOCO_MAIN"><a id="fldra_EOCO_MAIN" role="menuitem" aria-haspopup="true" class="ptntop" href="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?pt_fname=EOCO_MAIN&amp;FolderPath=PORTAL_ROOT_OBJECT.EOCO_MAIN&amp;IsFolder=true">Enterprise Components</a>
+<div class="pthnavfldrimg" title="FAN page (shift + enter)">&nbsp;</div>
+
+<div class="pthnavrightarrow">&nbsp;</div>
+</li>
+
+<li class="pthnavfldr pthnav-mouse" id="PT_WORKLIST"><a id="fldra_PT_WORKLIST" role="menuitem" aria-haspopup="true" class="ptntop" href="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?pt_fname=PT_WORKLIST&amp;FolderPath=PORTAL_ROOT_OBJECT.PT_WORKLIST&amp;IsFolder=true">Worklist</a>
+<div class="pthnavfldrimg" title="FAN page (shift + enter)">&nbsp;</div>
+
+<div class="pthnavrightarrow">&nbsp;</div>
+</li>
+
+<li class="pthnavfldr pthnav-mouse" id="PT_REPORTING_TOOLS"><a id="fldra_PT_REPORTING_TOOLS" role="menuitem" aria-haspopup="true" class="ptntop" href="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?pt_fname=PT_REPORTING_TOOLS&amp;FolderPath=PORTAL_ROOT_OBJECT.PT_REPORTING_TOOLS&amp;IsFolder=true">Reporting Tools</a>
+<div class="pthnavfldrimg" title="FAN page (shift + enter)">&nbsp;</div>
+
+<div class="pthnavrightarrow">&nbsp;</div>
+</li>
+
+<li class="pthnavfldr pthnav-mouse" id="PT_PEOPLETOOLS"><a id="fldra_PT_PEOPLETOOLS" role="menuitem" aria-haspopup="true" class="ptntop" href="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?pt_fname=PT_PEOPLETOOLS&amp;FolderPath=PORTAL_ROOT_OBJECT.PT_PEOPLETOOLS&amp;IsFolder=true">PeopleTools</a>
+<div class="pthnavfldrimg" title="FAN page (shift + enter)">&nbsp;</div>
+
+<div class="pthnavrightarrow">&nbsp;</div>
+</li>
+
+<li class="pthnavcref pthnav-mouse" id="crefli_PT_PTGP_USERPREF_FL_GBL"><a class="ptntop" href="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/c/PTGP_MENU.PTGP_USERPREF_FL.GBL?FolderPath=PORTAL_ROOT_OBJECT.NUI_STRUCTURE_CONTENT.PORTAL_GROUPLETS.PTFL_PEOPLETOOLS.PT_PTGP_USERPREF_FL_GBL&amp;IsFolder=false&amp;IgnoreParamTempl=FolderPath%2cIsFolder" role="menuitem">My Preferences</a>
+<div class="pthnavcrefimg">&nbsp;</div>
+</li>
+</ul>
+</div>
+
+<div class="pthnavscrolldown">&nbsp;</div>
+</div>
+</div>
+</li>
+
+<li id="pthnavbc" class="pthnavbcltr">
+<div id="pthbcScrollPrev" class="pthbcprev"><img id="pthbcStartWall" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_HNAV_BC_START_1.png" alt="Prev"></div>
+
+<div id="pthbcScroll" class="pthbcscroll">
+<div style="margin-left: 2em" dir="ltr" id="pthbcUlScroll">&nbsp;</div>
+</div>
+
+<div id="pthbcScrollNext" class="pthbcnext"><img id="pthbcEndWall" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_HNAV_BC_END_1.png" alt="Next"></div>
+</li>
+</ul>
+</div>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_HNAV_JS_MIN_1.js">
+</script>
+
+ 
+
+<div id="pthnavblock">&nbsp;</div>
+
+<div id="ptabnclonebc">
+<ul>
+<li id="ptabnsepbc" class="pthnavhiearchysep pthbcdispiblock">&nbsp;</li>
+
+<li id="ptabnfldrbc" class="pthnavbarfldr pthbcdispiblock"><a class="pthnavbcanchor" href="#">&nbsp;</a></li>
+
+<li id="ptabncrefbc" class="pthnavbarcref pthbcdispiblock"><a href="#">&nbsp;</a>
+<div class="pthnavcrefimg">&nbsp;</div>
+</li>
+
+<li id="ptabnportalfldrbc" class="pthnavbarcref pthbcdispiblock pthnavbarabnfldr ptabnportalfldr"><a class="pthnavbcanchor" href="#">&nbsp;</a></li>
+</ul>
+</div>
+
+<div id="ptabnrscontainer" class="ptabnconthide ptabnlayoutmargin">
+<form id="ptabn" name="ptabn" method="post" action="" target="TargetContent">
+<div class="ptabnheader">
+<div id="ptabntdiv"><span id="ptabnsrchtitle" class="PSSRCHSUBTITLE">Recent Search Results</span></div>
+
+<div id="ptabnsadiv"><a id="ptabnsrchagain" class="PSHYPERLINK" tabindex="1" href="">Refine Search</a></div>
+</div>
+</form>
+
+<div id="ptabnsp" class="ptabnsrchprompt" title="Recent Search Results"><a id="ptabn_SRCHPROMPT" href=""><span class="pthnavHideTxt pthnavHideTop">Search Prompt Popup</span></a></div>
+
+<div id="ptabnprevresults">&nbsp;</div>
+</div>
+
+<ul style="display:none;">
+<li id="pthnavmrs_" class="pthnavcref pthnav-mouse"><a href="">mrs</a>
+<div class="pthnavmrsimg">&nbsp;</div>
+</li>
+</ul>
+
+<input type="hidden" name="pthnavsid" id="pthnavsid" value="2MC%2fKNXm2vYO8v%2f9hdHH5EcT8Uk%3d"></nav>
+</div>
+
+<!--End pagelet: Nav --></div>
+
+<div><!--Begin pagelet: UniversalNavigation URL: https%3A%2F%2Fcorcsprd.peoplesoft.cornell.edu%2Fpsc%2Fcorcscss%2FEMPLOYEE%2FSA%2Fs%2FWEBLIB_PT_NAV.ISCRIPT1.FieldFormula.IScript_UniHeader_Frame%3Fc%3DTFsQAuqF2RtlidUJrYoTnj9HzFApegKe-->
+<div class="ptprtlcontainer">
+<header id="ptbr_header_container" role="banner" aria-label="Universal Navigation Header">
+<div id="pthnavbc_skipnav"><a href="#" onclick="javascript:ptCommonObj2.skipToMainContent(); return false;" id="skipnav">Skip to Main Content</a></div>
+
+<div id="CORNELL_HEADER_FLUID_SS_PT860" class="desktopFluidHdr">
+<div id="ptdropdownmenu" class="ptdropdownmenu">
+<div id="pthdr2navloc">&nbsp;</div>
+</div>
+
+<div class="ptbr-divider"><!--divider--></div>
+
+<div class="ptbr-divider"><!--divider--></div>
+
+<div id="pthdr2container" class="pthdr2container">
+<div id="pthdr2logofluid" class="">&nbsp;</div>
+
+<div id="pthdr2pagetitle" class="">
+<h1 id="pagetitleheader"><span class="titletext">&nbsp;</span></h1>
+</div>
+
+<div id="pthdr2navbarlinks" class="pthdr2navbarlinks">
+<div class="" id="pthdr2ActionList_div">
+<script type="text/javascript" language='javascript'>
+
+function updateActionListIconStyle(obj, sClass0) 
+ {
+
+ 
+ if (!obj) return; var sClass = (obj.getAttribute("class")) ? obj.getAttribute("class") : ""; if (sClass.indexOf(" "+sClass0) != -1)
+ ptUtil.removeClass(obj, sClass0); else ptUtil.addClass(obj, sClass0);  focusIntoActionList(); var actionListMask;  actionListMask = document.querySelector('#actionListContainerMask');  if(!actionListMask)
+ {
+ var actionlistMaskDiv = document.createElement("div"); actionlistMaskDiv.id = "psActionListMask"; actionlistMaskDiv.innerHTML = '<div id="actionListContainerMask" style="display: block;position: absolute;right: 0;visibility: visible;width: 100%;height:100%;top:0;overflow:hidden;z-index: 1;" onclick="javascript:hideActionListMenu();"><\/div>'; var bodyElement = document.querySelector('body'); bodyElement.appendChild(actionlistMaskDiv); }
+ else
+ {
+ actionListMask.style.width = "100%"; }
+
+ }
+
+function hideActionListMenu()
+ {
+ var actionListMask = document.getElementById("actionListContainerMask"); actionListMask.style.width = "0%"; var menuObj = document.getElementById("pthdr2actionListcontainerfluid"); ptUtil.removeClass(menuObj, "showActionListMenu");  ptUtil.addClass(menuObj, "hideActionListMenu"); var actionListButton = document.getElementById('pthdr2ActionList'); if(actionListButton)
+ actionListButton.focus(); }
+
+</script>
+
+ 
+
+<div class="" id="actionListIcon"><a onclick="javascript:updateActionListIconStyle(this.parentElement.nextElementSibling,'showActionListMenu');" title="Actions" class="PSHYPERLINK headerbutton" id="pthdr2ActionList" aria-haspopup="true" href="javascript:void(0)" role='button'><img id="actionlisticon" src="/cs/corcscss/cache_86020/PT_HEADER_ACTIONS_1.svg" alt="Actions"></a></div>
+
+<div id="pthdr2actionListcontainerfluid" class="hideActionListMenu">
+<div id="ptArrow" class="ps_arrow_top" style="right: 15px; display: block;">&nbsp;</div>
+
+<div id="PT_ACTION_MENU">
+<div id="ACTION_LINK_CONTAINER" class="" style="" role="menu">
+<div class="actionListHeaderClass" id="actionListHeader">
+<h1 class="actionlisttitleHdr"><span id="actionListTitle" tabindex="-1" onkeydown="registerHeaderKeyPress(event);">Actions List Popup</span></h1>
+
+<a id="closeAnchor" role="button" tabindex="0" onclick="hideActionListMenu();" onkeydown="closeActionList(event);"><img id="actionListCloseIcon" src="/cs/corcscss/cache_86020/PT_MODAL_CLOSE_NUI_1.svg" alt="Close"></a></div>
+
+<a id="pthdr2mypreferences" class="PSHYPERLINK" title="My Preferences" target="_top" href="https://corcsprd.peoplesoft.cornell.edu/psc/corcscss/EMPLOYEE/SA/c/PTGP_MENU.PTGP_USERPREF_FL.GBL" onclick="if ((typeof ptIframeHdr != 'undefined') &amp;&amp; (ptIframeHdr)) {return ptIframeHdr.hdrLinkClicked(this);} else {saveWarning(&quot;&quot;, null, &quot;_top&quot;, this.href); return false;}"><span>My Preferences</span></a><a id="pthdr2signout" class="PSHYPERLINK" title="Sign Out" target="_top" href="https://corcsprd.peoplesoft.cornell.edu/psp/corcscss/EMPLOYEE/SA/?cmd=logout" onclick="if ((typeof ptIframeHdr != 'undefined') &amp;&amp; (ptIframeHdr)) {return ptIframeHdr.hdrLinkClicked(this);} else {saveWarning(&quot;&quot;, null, &quot;_top&quot;, this.href); return false;}"><span>Sign Out</span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ptbr-divider"><!--divider--></div>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/TANGERINE_FLUID_HDR_JS_empty_MIN_1.js">
+</script>
+</div>
+
+<div id='ptasjs' style='display:none;'>
+<div id='ptasjs1'>https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_PORTAL_UTIL_JS_MIN_1.js</div>
+</div>
+
+<div id="ptifrmpopup" style="display:none;">
+<div id="ptpopup" role="alertdialog" aria-labelledby="ptpopoptitle" aria-describedby="ptpopupmsgtext">
+<div id="ptpopupcontainer">
+<div id="ptpopuptitlebar" class="ptpopuptitlebar">
+<p id="ptpopoptitle" class="PTPOPUP_TITLE">&nbsp;</p>
+
+<div id="ptpopupclose" title="Close">&nbsp;</div>
+</div>
+
+<div id="ptpopupcontentcontainer">
+<table id="ptpopuplayouttbl" role="presentation">
+<tbody>
+<tr>
+<td>
+<div id="ptpopupcontent">
+<div id="ptiframatfcontent">
+<div class="ptifrmatftitle"><span class="PAPAGETITLE">Add to Favorites</span></div>
+
+<div class="ptifrmatfinstruct"><span class="PAPAGEINSTRUCTIONS">Please Enter a Unique Description for this Favorite</span></div>
+
+<div id="ptifrmatfinput"><label id="ptifrmatflbl" class="PSEDITBOXLABEL" for="ptifrmatfdescr">*Description</label> <input id="ptifrmatfdescr" name="ptifrmatfdescr" class="PSEDITBOX" tabindex="0" type="text" value="" size="30" maxlength="30" uninav="" uninavtargetfav="" lnode="" rnode="" uninavcrefname="" uninavcreflbl=""> 
+
+<div class="ptifrmatfbtns">
+<div><a class="PSPUSHBUTTON Left" style="border:0;"><span><input id="ptifrmatfok" class="PSPUSHBUTTONTBOK" type="button" tabindex="0" value="OK" title="OK"></span></a></div>
+
+<div><a class="PSPUSHBUTTON Left" style="border:0;"><span><input id="ptifrmatfcancel" class="PSPUSHBUTTONTBOK" type="button" tabindex="0" value="Cancel" title="Cancel"></span></a></div>
+</div>
+
+<input type="hidden" id="ptifrmatfname" value=""> <input type="hidden" name="ptatfsid" id="ptatfsid" value="2MC%2fKNXm2vYO8v%2f9hdHH5EcT8Uk%3d"> <textarea type="hidden" id="ptifrmatflist" rows="80" cols="20"></textarea></div>
+</div>
+</div>
+
+<div id="ptpopupmsg">
+<div id="ptpopupmsgtext" class="popupText">&nbsp;</div>
+
+<div id="ptpopupmsgbuttons">
+<div><a class="PSPUSHBUTTON Left" onclick="javascript:if(event.target.id == this.firstChild.firstChild.id) { return true; } else return((this.firstChild &amp;&amp; this.firstChild.firstChild) != null ? this.firstChild.firstChild.click() : false);"><span><input id="ptpopupmsgbtn1" class="PSPUSHBUTTONTBOK" type="button" value="OK" tabindex="0" title="OK"></span></a> <a class="PSPUSHBUTTON Left" onclick="javascript:if(event.target.id == this.firstChild.firstChild.id) { return true; } else return((this.firstChild &amp;&amp; this.firstChild.firstChild) != null ? this.firstChild.firstChild.click() : false);"><span><input id="ptpopupmsgbtn2" class="PSPUSHBUTTONTBOK" type="button" value="Cancel" tabindex="0" title="Cancel"></span></a></div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="ptpopupshadow">&nbsp;</div>
+</div>
+</div>
+</header>
+
+<script type="text/javascript">
+ PTRTE_CheckImages('','','CompanyInfo'); 
+</script>
+
+<div id="WAIT_empty" class="ptWaitEmpty" style="display:none;position:absolute;"><img id="processing" align="left" alt="Processing... please wait" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_PROCESSING_1.gif"></div>
+
+<div id="Delayed_empty" style="visibility: hidden; position:absolute;left:auto;top:-10000px; width:1px; height:1px;overflow:hidden;" aria-relevant="text additions" aria-live="assertive" aria-atomic="true">&nbsp;</div>
+
+<script type="text/javascript">
+if (/\/c\/\PORTAL_ADMIN\.PTSF_GLOBAL_SEARCH\.GBL/.test(top.location))searchProcessing(1);
+</script>
+</div>
+
+<!--End pagelet: UniversalNavigation --></div>
+
+<div id="ptifrmcontent">
+<div id="ptifrmtarget"><iframe id="ptifrmtgtframe" name="TargetContent" title="Main Content" frameborder="0" scrolling="auto" onload="ptrc.onLoadTC()" src="https://corcsprd.peoplesoft.cornell.edu/psc/corcscss/EMPLOYEE/HRMS/c/IM_IMG_1.svg?PortalActualURL=https%3a%2f%2fcorcsprd.peoplesoft.cornell.edu%2fpsc%2fcorcscss%2fEMPLOYEE%2fHRMS%2fc%2fIM_IMG_1.svg&amp;PortalRegistryName=EMPLOYEE&amp;PortalServletURI=https%3a%2f%2fcorcsprd.peoplesoft.cornell.edu%2fpsp%2fcorcscss%2f&amp;PortalURI=https%3a%2f%2fcorcsprd.peoplesoft.cornell.edu%2fpsc%2fcorcscss%2f&amp;PortalHostNode=SA&amp;NoCrumbs=yes&amp;PortalKeyStruct=yes"></iframe></div>
+
+<div id="ptifrmrc" class="ptifrmrcstd">
+<div id="ptrcTCSpacer">&nbsp;</div>
+
+<div id="ptifrmresizeupmask">&nbsp;</div>
+
+<div id="ptifrmsep">
+<div id="ptifrmrchandle" class="ptifrmhandle">&nbsp;</div>
+</div>
+
+<div id="ptifrmresizedownmask">&nbsp;</div>
+
+<!-- <table id="ptrctitlebar" class="ptrctitlebar" cols="6" >-->
+<table id="ptrctitlebar" class="ptrctitlebar" cols="6" role="presentation">
+<tr>
+<td width="16"><a id="ptrccollapse_expand" class="ptrcexpand" title="Collapse Related Content" tabindex="0" onclick="ptrc.rcBodyToggle();" onkeypress="if (event.keyCode != 13) return; ptrc.rcBodyToggle();">&nbsp;</a></td>
+<td align="left" width="180">
+<h2 class="ptrctitlebar">Related Content</h2>
+</td>
+<td align="right" valign="bottom">
+<div id="rcMenuOnRC">&nbsp;</div>
+</td>
+<td align="right" colspan="1" width="17">&nbsp;</td>
+<td align="right" colspan="1" width="70" class="PTCPRCBFRAMERIGHTSEC"><a class="PTCPRCBFRAMEREFRESH" onclick="ptrc.onRefresh();" onmouseover="ptrc.onHoverRefresh();" onmouseout="ptrc.onMouseoutRefresh();" onkeydown="if (event.keyCode != 13) return; ptrc.onRefresh();" tabindex="0"><img class="ptrcimg ptrcpgltrefresh" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_REFRESH_NEW_1.png" id="ptrcrefresh" alt="Refresh"> <img class="ptrcimg ptrcpgltrefresh" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_REFRESH_ONHOVER_1.png" id="ptrcrefreshonhover" alt="Refresh" style="display:none"></a> <a class="PTCPRCBFRAMESETTINGS" aria-haspopup="true" tabindex="0" id="ptrcdropdownicon_RelatedContent" onclick=" ptrc.mopen(event);" onkeydown="ptrc.mkeyevents(event);" onmouseout="ptrc.mclosetime();" title="Pagelet Settings"><img id="ptsrc_dropdownicon_RelatedContent" class="ptrcPgltcontrolsdropdown" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PTAL_PGLT_DROPDOWN_1.GIF" alt="Pagelet Settings"></a> <!-- pagelet controls dropdown--> 
+
+<div id="ptrcDropDowndiv_RelatedContent" class="ptrcPgltControls">
+<ul id="ptrcControls_RelatedContent" class="ptrcPgltControls ptrcPgltcontrolshadowabove">
+<li>
+<div id="ptrcDropdown_RelatedContent" onmouseover="javascript:ptrc.mcancelclosetime()" onmouseout="javascript:ptrc.mclosetime()" onkeydown="javascript:ptrc.mkeybclosercmenu(event)" style="z-index:200" aria-labelledby="ptrcdropdownicon_RelatedContent" role="menu"><a role="menuitem" onclick="ptrc.onNewWindow();" onkeydown="ptrc.marrowkeys(event,'newwin');" class="ptrcimg" tabindex="0" id="ptrcnewwin">New Window</a> <a role="menuitem" onclick="ptrc.onHideRC('true');" onkeydown="ptrc.marrowkeys(event,'hide');" class="ptrcimg" tabindex="0" id="ptrcclose">Close</a></div>
+</li>
+</ul>
+</div>
+
+<!-- pagelet controls finished--></td>
+<td align="right" colspan="1" width="20">&nbsp;</td>
+</tr>
+</table>
+
+<div id="ptrctitleline">&nbsp;</div>
+
+<iframe name="RelatedContent" id="RelatedContent" title="Related Content" frameborder="0" scrolling="no" onload="ptrc.onLoadRC()" onmouseover="setupTimeout2()" src=""></iframe></div>
+
+<div class="vRCPgltAreaContainer vRCPgltArea_hidden" id="vRCPgltAreaContainer">
+<div class="vRCPgltArea vRCPgltArea_docked" id="vRCPgltArea" style="right: 13px;">
+<table role="presentation" height="10" cellspacing="0" cellpadding="0" border="0" width="10" class="ltr">
+<tr>
+<td height="100%" align="center" width="100%" valign="bottom" class="vRCNoPadding">
+<table cellspacing="0" cellpadding="0" border="0" class="vRCNoPadding">
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" border="0" class="vRCPgltAreaBody" id="vRCPgltAreaBody">
+<tr>
+<td valign="top" class="vRCPgltAreaResizeBar" id="vRCPgltAreaHideContainer"><a onclick="if ((typeof RCPage != 'undefined') &amp;&amp; (RCPage)) RCPage.onHidePageletArea();" href="javascript:void(0)" tabindex="0" class="PSHYPERLINK" name="ptalPgltAreaHide" id="vRCPgltAreaHide" title="Collapse Related Content"><img hspace="0" height="24" border="0" width="21" vspace="0" class="vRCActionIcon vRCCollapseicon vRCPgltAreaHideIcon" alt="Collapse Related Content" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_RC_COLLAPSE_NEW_1.gif"></a></td>
+<td valign="middle" class="vRCPgltAreaResizeBar vRCPgltAreaResize" id="vRCPgltAreaResizeBar">
+<div class="vRCPgltAreaResizeMiddlediv">&nbsp;</div>
+</td>
+<td align="center" valign="top" class="vRCPgltAreaBorderTopMiddle">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="vRCPgltAreaHeader" id="vRCPgltAreaHeader">
+<tr>
+<td valign="bottom" class="vRCPgltAreaGroupsBar">
+<div class="vRCPageletGroupsDiv" id="vRCPageletGroupsDiv">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+<td nowrap="nowrap">
+<div id="SrcMenuOnRC" class="vRCHidden">&nbsp;</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+
+<div class="vRCPgltAreaFrameDiv" id="vRCPgltAreaFrameDiv"><iframe name="SRelatedContent" id="SRelatedContent" title="Related Content" frameborder="0" scrolling="no" onmouseover="setupTimeout2()" onload="ptrc.onLoadRC()" src=""></iframe></div>
+</td>
+</tr>
+</table>
+</td>
+<td valign="top" class="vRCPgltAreaBodyAnchor vRCPgltAreaBorderTopLeft vRCHidden" id="vRCPgltAreaBodyAnchor"><a onclick="if ((typeof RCPage != 'undefined') &amp;&amp; (RCPage)) RCPage.onShowPageletArea();" href="javascript:void(0)" tabindex="0" class="PSHYPERLINK" title="Expand Related Content" name="ptalPgltAreaShow" id="vRCPgltAreaShow" style="display: none;"><img hspace="0" height="22" border="0" width="14" vspace="0" class="vRCActionIcon vRCExpandicon vRCPgltAreaShowIcon" alt="Expand Related Content" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_RC_EXPAND_NEW_1.gif"></a></td>
+<td valign="middle" class="vRCPgltAreaBodyAnchor vRCPgltAreaBorderTopLeft vRCPgltAreaBar" id="vRCPgltAreaBodyShow">
+<div class="vRCPgltAreaResizeMiddlediv">&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+<script type="text/javascript" src="https://corcsprd.peoplesoft.cornell.edu/cs/corcscss/cache_86020/PT_HNAV_TEMPLATE_JS_MIN_1.js">
+</script>
+</div>
+</body>
+</html>
+

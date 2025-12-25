@@ -1,0 +1,15 @@
+
+table.PSPAGECONTAINER table.PSPAGECONTAINER tr:nth-child(2) > td {
+	height: 100% !important;
+}
+
+
+[id^="RUN_CNTL_RSTR_H_SESSION_CODE"] {
+    width: Auto !Important
+}
+
+
+[id^="CU_TASK_DYN_FLD_CU_CONTEXTUAL_DATA"] {
+    display: block;
+    width: max-content;
+}
